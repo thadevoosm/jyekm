@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+.main-screen{
+    position: absolute;
+    width: 100%;
+}
+.home-screen-comming{
+ text-align: center;
+ margin-top: 200px;
+
+}
+.home-screen-comming h1{
+    font-family: 'Honk', system-ui;
+    font-size: 8rem;
+    margin-bottom: 0px;
+}
+.home-screen-comming p{
+    font-size: 1.2rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar img{
+    height: 50px;
+    width: auto;
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+.navbar h3{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
