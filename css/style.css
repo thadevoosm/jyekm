@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: linear-gradient(#f5efed, rgb(255, 255, 255));
     height: 100vh;
@@ -64,7 +68,7 @@ body{
 }
 .circle-overlay-1{
     z-index: 5;
-    background-color: rgb(252, 104, 104);
+    background-color: rgb(252, 104, 104, 0.71);
     top: -11.7rem;
 }
 .circle-2{
@@ -80,7 +84,7 @@ body{
 }
 .circle-overlay-2{
     z-index: 5;
-    background-color: rgb(252, 104, 104);
+    background-color: rgb(252, 104, 104, 0.71);
     bottom: -3.8rem;
     left: -3.8rem;
 }
@@ -97,7 +101,7 @@ body{
 }
 .circle-overlay-3{
     z-index: 5;
-    background-color: rgb(252, 104, 104);
+    background-color: rgba(252, 104, 104, 0.71);
     right: -8.5rem;
 }
 
@@ -111,9 +115,33 @@ body{
     }
     .navbar{
         margin-left: 0rem;
-        padding-top: 0rem;
+        padding-top: 1rem;
         width: 100vw;
         justify-content: center ;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden ;
+    }
+    html{
+        overflow: hidden;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .circle-3{
+        height: 100px;
+        width: 100px;
+        right: -4rem;
+        bottom: 75%;
+    }
+    .circle-overlay-3{
+       right: -3.9rem; 
+    }
+    .circle-2{
+        height: 150px;
+        width: 150px;
     }
 
 }
